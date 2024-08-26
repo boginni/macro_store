@@ -4,13 +4,8 @@ version: 0.0.1
 # repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ^3.5.1
+  sdk: ">=3.4.0 <4.0.0"
 
 # Add regular dependencies here.
 dependencies:
-  args: ^2.4.2
-
-dev_dependencies:
-  lints: ^4.0.0
-  test: ^1.24.0
-  macros: ^0.1.0-main.5
+  macros: ^0.1.0
